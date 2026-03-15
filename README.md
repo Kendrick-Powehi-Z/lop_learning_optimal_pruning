@@ -37,36 +37,5 @@ The current code supports the following multimodal LLMs:
 
 ---
 
-## Repository Structure
-
-```text
-.
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-├── src/
-│   ├── importance/
-│   │   └── compute_importance.py
-│   ├── search/
-│   │   └── mcts_search.py
-│   ├── lop/
-│   │   ├── prepare_training_data.py
-│   │   ├── train.py
-│   │   └── infer.py
-│   └── pruning/
-│       └── apply_pruning_and_save.py
-├── scripts/
-│   ├── run_importance.sh
-│   ├── run_mcts_search.sh
-│   ├── run_prepare_lop_data.sh
-│   ├── run_train_lop.sh
-│   ├── run_infer_lop.sh
-│   └── run_apply_pruning.sh
-└── outputs/
-    ├── importance/
-    ├── mcts/
-    ├── lop_data/
-    ├── lop_predictor/
-    ├── pruning_ratios/
-    └── pruned_models/
+## Acknowledgment
+We extend our gratitude to the open-source efforts of LLaVA-OneVision, Qwen2.5-VL, lmms-lab.
